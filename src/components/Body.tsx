@@ -87,7 +87,7 @@ export default function Body() {
           />
           <Box mr={"auto"} mt={3} justifySelf={"left"}>
             <Button type="submit" colorScheme="teal">
-              Button
+              Convert Text
             </Button>
           </Box>
         </Flex>

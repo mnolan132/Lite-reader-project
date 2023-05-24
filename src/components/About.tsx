@@ -3,7 +3,9 @@ import { Heading, Text } from "@chakra-ui/react";
 const About = () => {
   return (
     <section>
-      <Heading textAlign={"left"}>About Bionic Reading</Heading>
+      <Heading as="h3" size="lg" textAlign={"left"}>
+        About Bionic Reading
+      </Heading>
       <Text pl={2} pr={2} textAlign={"left"}>
         Bionic Reading is an innovative approach that combines human reading
         abilities with technology to enhance reading experiences. By leveraging
@@ -11,7 +13,7 @@ const About = () => {
         natural language processing, bionic reading offers numerous benefits to
         readers of all kinds.
       </Text>
-      <Heading as="h3" size="lg" textAlign={"left"}>
+      <Heading as="h4" size="md" textAlign={"left"}>
         Improved Reading Speed
       </Heading>
       <Text pl={2} pr={2} textAlign={"left"}>
@@ -21,7 +23,7 @@ const About = () => {
         The technology adapts to the reader's pace and adjusts the presentation
         accordingly, facilitating faster and more efficient reading.
       </Text>
-      <Heading as="h3" size="lg" textAlign={"left"}>
+      <Heading as="h4" size="md" textAlign={"left"}>
         Enhanced Comprehension
       </Heading>
       <Text pl={2} pr={2} textAlign={"left"}>
@@ -31,7 +33,7 @@ const About = () => {
         readers in grasping the core concepts and understanding the material
         more deeply.
       </Text>
-      <Heading as="h3" size="lg" textAlign={"left"}>
+      <Heading as="h4" size="md" textAlign={"left"}>
         Personalized Reading Experience
       </Heading>
       <Text pl={2} pr={2} textAlign={"left"}>
@@ -42,7 +44,7 @@ const About = () => {
         different skill levels and learning styles, providing a personalized
         approach for each reader.
       </Text>
-      <Heading as="h3" size="lg" textAlign={"left"}>
+      <Heading as="h4" size="md" textAlign={"left"}>
         Accessibility and Inclusivity
       </Heading>
       <Text pl={2} pr={2} textAlign={"left"}>
@@ -52,7 +54,7 @@ const About = () => {
         people with visual impairments, language barriers, or learning
         disabilities to access and engage with written content effectively.
       </Text>
-      <Heading as="h3" size="lg" textAlign={"left"}>
+      <Heading as="h4" size="md" textAlign={"left"}>
         Efficient Information Processing
       </Heading>
       <Text pl={2} pr={2} textAlign={"left"}>
