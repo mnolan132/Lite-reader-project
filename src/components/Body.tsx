@@ -50,9 +50,19 @@ export default function Body() {
 
     for (let i = 0; i < words.length; i++) {
       const word = words[i];
-      const halfLength = Math.floor(word.length / 2);
-      const boldText =
-        "<b>" + word.slice(0, halfLength) + "</b>" + word.slice(halfLength);
+      let boldText = "";
+
+      for (let j = 0; j < word.length; j++) {
+        const char = word[j];
+        if (char.match(/[a-zA-Z]/)) {
+          const halfLength = Math.floor(word.length / 2);
+          const boldChar = j < halfLength ? "<b>" + char + "</b>" : char;
+          boldText += boldChar;
+        } else {
+          boldText += char;
+        }
+      }
+
       result.push(boldText);
     }
 
