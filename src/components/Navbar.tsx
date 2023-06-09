@@ -22,10 +22,14 @@ const Navbar = () => {
         <Box>
           <Flex alignItems={"center"}>
             <Box p={3}>
-              <Link to="/">Home</Link>
+              <Link to="/">
+                <strong>Ho</strong>me
+              </Link>
             </Box>
             <Box p={3}>
-              <Link to="/about">About</Link>
+              <Link to="/about">
+                <strong>Ab</strong>out
+              </Link>
             </Box>
           </Flex>
         </Box>
